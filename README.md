@@ -7,7 +7,7 @@ This is the first lab of the semster and is meant to act as a refresher from cs 
 ## Running the site
 Students who choose to run my site are able to fork my public repository. The student can then have a further overview of all componets of the lab if they choose since I feel viewing the lab in an IDE is easier than seeing the componets on GitHub. 
 
-From there, students can view a live preview (with the extentsion) or paste this URL into their broswer: http://127.0.0.1:3000/index.html. 
+From there, students can view a live preview (with the extentsion) and paste this URL into their broswer: http://127.0.0.1:3000/index.html. 
 
 ## Sources and Credits
 
