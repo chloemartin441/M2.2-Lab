@@ -1,4 +1,33 @@
 h1{
-  border-color: #d3e644;
+  border-color: #05660a;
+  border-style: solid;
+  border-width: 5px;
+  padding: 10px;
+  text-align:center;
+  background-color: rgb(121, 205, 149);
+  
+}
+.about-container{
+  display:flex;
+  align-items: center;
+  gap:30px;
+  margin-top:30;
+ 
+}
+.profile-pic{
+  width: 150px;
+  height:auto
+  
+  
+}
+.about-text{
+  color:#05660a;
+  font-size: large;
+  background-color: rgb(121, 205, 149);
+  border-color: #05660a;
   border-style: dashed;
+  border-width: 5px;
+}
+body{
+  background-color: rgb(111, 176, 151);
 }

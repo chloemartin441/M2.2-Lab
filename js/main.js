@@ -1,18 +1,23 @@
 window.onload = loaded;
 
 /**
- * Simple Function that will be run when the browser is finished loading.
+ * function that will be run when the browser is finished loading.
  */
 function loaded() {
-    // Assign to a variable so we can set a breakpoint in the debugger!
-    const hello = sayHello();
-    console.log(hello);
+    // get the button by its ID
+    const button = document.getElementById("helloButton");
+
+    //event listener to the button for the click event
+    button.addEventListener("click", function() {
+        // call the sayHello function and display the result in an alert
+        alert(sayHello());
+    });
 }
 
 /**
- * This function returns the string 'hello'
- * @return {string} the string hello
+ * this function returns the string 'Hello, thanks for viewing my about me page :)'
+ * @return {string} custom message
  */
 export function sayHello() {
-    return 'hello';
+    return 'Hello, thanks for viewing my about me page :)';
 }

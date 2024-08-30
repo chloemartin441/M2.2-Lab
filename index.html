@@ -3,15 +3,41 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Hello World!</title>
-  <meta name="description" content="">
+  <title>About Me!</title> <!--title of page-->
+  <meta name="description" content="About Page">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <h1>HTML Rocks!</h1>
-  <img src="img/compile.jpeg">
+  <!--heading of the page-->
+  <h1>About Me Page!</h1>
+  <!--container for the image and also the text-->
+  <div class="about-container">
+    <!--profile picture-->
+    <img src="img/me.jpeg" alt="Chloe Martin" class="profile-pic">
+    <!--container for information-->
+    <div class="about-text">
+      <!--list with required information-->
+      <ul>
+        <li>Name: Chloe Martin</li>
+        <li>Graduation: Fall 2025</li>
+        <li>Do I currently have a job in web dev?
+          <ul>
+            <li>I do not have a job in web dev. After graduation, I hope to work in the cybersecurity field.</li>
+          </ul>
+        </li>
+        <li>Have you had a job or internship doing web dev?
+          <ul>
+            <li>I currently do not have any internships but hope to secure one next semester or perhaps in the summer!
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <button id="helloButton">Click Me!</button>
   <script type="module" src="js/main.js"></script>
 </body>
 
